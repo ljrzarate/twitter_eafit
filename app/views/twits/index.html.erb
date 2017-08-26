@@ -1,0 +1,10 @@
+<h2> Mis Twits </h2>
+
+<%= link_to("Crear Twit", new_twit_path, {class: "badge badge-primary btn-large"}) %>
+
+<ul class="list-group">
+  <%- @twits.each do |t| %>
+    <li class="list-group-item"><%= t.description %></li>
+    <br>
+  <% end %>
+</ul>
