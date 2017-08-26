@@ -1,1 +1,43 @@
-new.html.erb
+<!-- <div class=row>
+  <form>
+    <div class="form-group">
+     <div class="col-md-4 col-md-offset-4">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-4 col-md-offset-4">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-check">
+    <div class="col-md-4 col-md-offset-4">
+      <label class="form-check-label">
+        <input type="checkbox" class="form-check-input">
+        Check me out
+      </label>
+    </div>
+    </div>
+    <div class="col-md-4 col-md-offset-4">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
+ -->
+
+<% if @twit.errors.any? %>
+  <ul>
+    <% @twit.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+<% end %>
+<div class="row">
+  <%= form_for :twit, url: {action: "create"}, html: {class: "form-group"} do |f| %>
+    <%= f.text_area :description %>
+    <%= f.submit "Crear" %>
+  <% end %>
+</div>
