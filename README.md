@@ -1,24 +1,31 @@
-# README
+# Resources
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Try Github
+https://try.github.io
+http://gitready.com/
 
-Things you may want to cover:
+Try Ruby
+http://tryruby.org
+https://rubymonk.com/
 
-* Ruby version
+# Ruby Installers
+https://www.ruby-lang.org/en/downloads/
+https://rubyinstaller.org/
 
-* System dependencies
+# Install Rails on MacOSX
 
-* Configuration
+http://railsapps.github.io/installrubyonrails-mac.html
 
-* Database creation
+# Install Rails on Ubuntu
 
-* Database initialization
+http://railsapps.github.io/installrubyonrails-ubuntu.html
 
-* How to run the test suite
+# Rails Guides
+http://guides.rubyonrails.org/getting_started.html
+http://railsapps.github.io/installrubyonrails-mac.html
+http://guides.rubyonrails.org/
 
-* Services (job queues, cache servers, search engines, etc.)
+# Boostrap
 
-* Deployment instructions
-
-* ...
+http://getbootstrap.com/
+https://www.w3schools.com/bootstrap/
